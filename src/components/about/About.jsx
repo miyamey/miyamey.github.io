@@ -20,9 +20,34 @@ const About = () => {
           <div className="about__skills grid">
             <div className="skills_data">
               <div className="skills__titles">
-                <h3 className="skills__name">
-                  <span className="skills__number"></span>
-                </h3>
+                <h3 className="skills__name">Development</h3>
+                  <span className="skills__number development">90%</span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage"></span>
+              </div>
+            </div>
+
+            <div className="skills_data">
+              <div className="skills__titles">
+                <h3 className="skills__name">UI/UX design</h3>
+                  <span className="skills__number development">80%</span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage"></span>
+              </div>
+            </div>
+
+            <div className="skills_data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Graphic Design</h3>
+                  <span className="skills__number development">80%</span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage"></span>
               </div>
             </div>
           </div>
